@@ -14,8 +14,8 @@ class Program
         MathAssignment math = new MathAssignment();
         math.SetStudentName("Roberto Rodriquez");
         math.SetTopic("Fractions");
-        math.SetTextBookSection("Section 7.3");
-        math.SetProblems("Problems 8-19");
+        math.SetTextBookSection(" 7.3");
+        math.SetProblems(" 8-19");
 
         Console.WriteLine(math.GetSummary());
         Console.WriteLine(math.GetHomeworkList());

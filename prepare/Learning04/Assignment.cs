@@ -2,11 +2,11 @@ using System;
 
 public class Assignment
 {
-    // Attributes 
+    // Using Attributes 
     private string _studentName = "";
     private string _topic = "";
 
-    // Constructors
+    // Using Constructors
     public Assignment()
     {
 
