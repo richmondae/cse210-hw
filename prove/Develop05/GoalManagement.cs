@@ -75,7 +75,7 @@ public class GoalManagement
     }
     public void SaveGoals()
     {
-        Console.Write("\nwrite the name for this goal file?  ");
+        Console.Write("\nWhat is the name for this goal file?  ");
         string userInput = Console.ReadLine();
         string userFileName = userInput + ".txt";
 

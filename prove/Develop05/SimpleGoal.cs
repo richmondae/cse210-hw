@@ -29,7 +29,7 @@ public class SimpleGoal : Goal
         }
         else if (Finished() == true)
         {
-            Console.WriteLine($"{i}. [X] {GetName()} ({GetDescription()})");
+            Console.WriteLine($"{i}. [>] {GetName()} ({GetDescription()})");
         }
     }
     public override string SaveGoal()
